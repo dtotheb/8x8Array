@@ -1,3 +1,5 @@
+wordForOutput = ' k+d '
+
 #setup the letters for DAN
 letterD = (
     (0,0),
@@ -271,10 +273,13 @@ plus = (
     (5,4),
     (6,4),
     (7,4)
+    )
 
-
-
-
+space = (
+    (0,0),
+    (7,0),
+    (0,7),
+    (7,7)
     )
 
 
@@ -289,4 +294,4 @@ letterDict = {
     'k' : letterK,
     'y' : letterY,
     '+' : plus,
-    ' ' : ()}
+    ' ' : space}
